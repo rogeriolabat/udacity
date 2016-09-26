@@ -1,14 +1,14 @@
 package nanodegree.udacity.com.myappportfolio;
 
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 
-import static android.widget.Toast.*;
+import static android.widget.Toast.LENGTH_SHORT;
+import static android.widget.Toast.makeText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         int duration = LENGTH_SHORT;
 
         Toast toast = makeText(context, text, duration);
-        toast.setGravity(Gravity.TOP | Gravity.LEFT, 10, 400);
+        toast.setGravity(Gravity.TOP | Gravity.START, 10, 400);
         toast.show();
     }
 
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         int duration = LENGTH_SHORT;
 
         Toast toast = makeText(context, text, duration);
-        toast.setGravity(Gravity.TOP | Gravity.LEFT, 10, 400);
+        toast.setGravity(Gravity.TOP | Gravity.START, 10, 400);
         toast.show();
     }
 
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         int duration = LENGTH_SHORT;
 
         Toast toast = makeText(context, text, duration);
-        toast.setGravity(Gravity.TOP | Gravity.LEFT, 10, 400);
+        toast.setGravity(Gravity.TOP | Gravity.START, 10, 400);
         toast.show();
     }
 
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         int duration = LENGTH_SHORT;
 
         Toast toast = makeText(context, text, duration);
-        toast.setGravity(Gravity.TOP | Gravity.LEFT, 10, 400);
+        toast.setGravity(Gravity.TOP | Gravity.START, 10, 400);
         toast.show();
     }
 
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         int duration = LENGTH_SHORT;
 
         Toast toast = makeText(context, text, duration);
-        toast.setGravity(Gravity.TOP | Gravity.LEFT, 10, 400);
+        toast.setGravity(Gravity.TOP | Gravity.START, 10, 400);
         toast.show();
     }
 
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         int duration = LENGTH_SHORT;
 
         Toast toast = makeText(context, text, duration);
-        toast.setGravity(Gravity.TOP | Gravity.LEFT, 10, 400);
+        toast.setGravity(Gravity.TOP | Gravity.START, 10, 400);
         toast.show();
     }
 
